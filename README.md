@@ -1,34 +1,38 @@
 🌍 HelloWorld - Frontend
-Este é o Frontend do projeto HelloWorld, desenvolvido com React, Bootstrap e Axios.
-Trata-se de uma página simples onde você pode digitar seu nome e receber uma mensagem personalizada "HelloWorld" com o nome informado.
+Um frontend simples e elegante desenvolvido com React, Bootstrap e Axios que permite você inserir seu nome e receber uma saudação personalizada:
+
+HelloWorld, [seu nome]!
 
 🚀 Tecnologias Utilizadas
-React
+⚛️ React – Biblioteca para construção da interface
 
-Bootstrap
+🎨 Bootstrap – Framework para estilos e responsividade
 
-Axios
+📡 Axios – Cliente HTTP para comunicação com backend
 
-📁 Estrutura de Pastas
-pgsql
+📂 Estrutura do Projeto
+csharp
 Copiar
 Editar
-FRONTEND-HELLOWORLD
-├── node_modules/
-├── public/
-├── src/
-│   ├── App.css
-│   ├── App.js
-│   ├── App.test.js
-│   ├── index.css
-│   ├── index.js
-│   ├── logo.svg
-│   ├── reportWebVitals.js
-│   └── setupTests.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
-🖥️ Como usar o site
-No site, você pode inserir seu nome no campo de texto e clicar em Salvar.
-Logo após, a mensagem "HelloWorld [seu nome]" será exibida abaixo do campo.
+FRONTEND-HELLOWORLD/
+│
+├── node_modules/          # Dependências do projeto
+├── public/                # Arquivos públicos estáticos
+├── src/                   # Código fonte
+│   ├── App.css            # Estilos principais
+│   ├── App.js             # Componente principal
+│   ├── index.js           # Ponto de entrada
+│   └── ...                # Outros arquivos auxiliares
+├── package.json           # Configuração e scripts
+└── README.md              # Documentação do projeto
+🖥️ Como usar
+Digite seu nome no campo de texto.
+
+Clique no botão Salvar.
+
+Veja a saudação personalizada aparecer logo abaixo:
+
+HelloWorld, [seu nome]!
+
+Simples assim!
+
